@@ -1,0 +1,162 @@
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: #b66213;
+  font-family: "Indie Flower", cursive;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif; */
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #eed3b9;
+  height: 8vh;
+  z-index: 1;
+}
+
+.name-page {
+  margin: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+div > .food {
+  color: #504c4c;
+  margin-left: 11rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #eed3b9;
+  height: 8vh;
+}
+
+.left,
+.right {
+  display: flex;
+  width: 50vw;
+}
+
+.left {
+  flex-direction: row;
+}
+
+.right {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+}
+
+.link {
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1.5vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  //   background-color: rgba(0, 0, 0, 0.2);
+  height: 50vh;
+}
+
+.banner {
+  background-color: green;
+  height: 20vh;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  //   width: 50rem;
+  //   align-self: center;
+  justify-content: space-between;
+  //   border: 2px solid;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 60vh;
+  padding-top: 2rem;
+  //   margin: 2rem;
+  border-radius: 2rem;
+  background-color: rgba(124, 120, 120, 0.082);
+  //   justify-content: center;
+  align-items: center;
+  //   border: solid 2px #eed3b985;
+}
+
+.image > img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 2rem;
+}
+
+.content > .icon {
+  align-self: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  padding-right: 2rem;
+}
+
+.icons {
+  margin-right: 2rem;
+  background-color: #eed3b985;
+  padding: 0.5rem;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.name-food {
+  margin-top: 2rem;
+}
+
+.recipeTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.recipeDescription {
+  width: 20rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.box:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
