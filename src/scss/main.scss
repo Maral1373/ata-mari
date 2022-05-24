@@ -4,12 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body,
+a,
+a:active,
+a:visited,
+a:hover {
+  font-family: "Open Sans";
   font-size: 1rem;
   color: #b66213;
-  font-family: "Indie Flower", cursive;
-  /* font-family: 'Josefin Sans', sans-serif; */
-  /* font-family: 'Lato', sans-serif;
-  font-family: 'Open Sans', sans-serif; */
+  // font-family: "Indie Flower", cursive;
+  // font-family: "Josefin Sans", sans-serif;
+  // font-family: "Lato", sans-serif;
 }
 
 .mainContainer {
@@ -61,6 +68,7 @@ div > .food {
 }
 
 .link {
+  color: #b66213;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 0.2rem;
@@ -123,7 +131,7 @@ a:hover {
 .content > .icon {
   align-self: center;
   justify-content: space-between;
-  color: white;
+  color: rgb(131, 125, 125);
   padding: 0.5rem;
   display: flex;
   padding-right: 2rem;
@@ -150,9 +158,10 @@ a:hover {
 }
 
 .recipeDescription {
-  width: 20rem;
+  text-align: center;
   margin-top: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  color: #504c4c;
 }
 
 .box:hover {
@@ -161,13 +170,104 @@ a:hover {
   transform: scale(1.1);
 }
 
-
 // page-2
 
-.pic {
-  border: 2px solid red;
-  width: 50vw;
-  height: 80vh;
-  font-size: 5rem;
+.container-2 {
+  margin: 2rem;
+  display: flex;
+  width: 95vw;
+  height: 90vh;
+  // border: 2px solid blue;
+  justify-content: flex-start;
 }
 
+.name > h1 {
+  margin: 2rem 4rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  border-bottom: #504c4c dotted;
+}
+
+.pic {
+  margin-left: 7rem;
+  margin-top: 3rem;
+  // border: 2px solid red;
+  width: 25vw;
+  height: 50vh;
+}
+
+.ingredients > h1,
+.preparation > h1 {
+  text-align: center;
+}
+
+.ingredients {
+  width: 20rem;
+  height: 25rem;
+  margin: 3rem 5rem;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  color: rgb(73, 72, 72);
+  // border: 1px solid green;
+}
+
+.preparation {
+  width: 20rem;
+  height: 30rem;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  line-height: 1.5rem;
+  color: rgb(73, 72, 72);
+  // border: 1px solid red;
+}
+
+// page 3
+
+.container-2 {
+  margin: 2rem;
+  display: flex;
+  width: 95vw;
+  height: 90vh;
+  // border: 2px solid blue;
+  justify-content: flex-start;
+}
+
+.name > h1 {
+  margin: 2rem 4rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  border-bottom: #504c4c dotted;
+}
+
+.pic {
+  margin-left: 7rem;
+  margin-top: 3rem;
+  // border: 2px solid red;
+  width: 25vw;
+  height: 50vh;
+}
+
+.ingredients > h1,
+.preparation > h1 {
+  text-align: center;
+}
+
+.ingredients {
+  width: 20rem;
+  height: 25rem;
+  margin: 3rem 5rem;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  color: rgb(73, 72, 72);
+  // border: 1px solid green;
+}
+
+.preparation {
+  width: 20rem;
+  height: 30rem;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  line-height: 1.5rem;
+  color: rgb(73, 72, 72);
+  // border: 1px solid red;
+}
